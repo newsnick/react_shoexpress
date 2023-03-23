@@ -9,7 +9,7 @@ import styles from './Home.module.css'
 
 const Home = () => {
   return (
-    <div className={styles.section1}>
+    <main className={styles.section1}>
       <Navbar />
       <img className={styles.shoes} src={shoegroup} alt="shoepair" />
       <img className={styles.ellipselr} src={ellipselarge} alt="ellipselarge" />
@@ -24,7 +24,7 @@ const Home = () => {
         alt="ellipsemedium"
       />
       <img className={styles.ellipses} src={ellipsesmall} alt="ellipsesmall" />
-    </div>
+    </main>
   )
 }
 
