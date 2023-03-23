@@ -1,3 +1,5 @@
+$mainbackground: #006c79;
+
 .section1 {
   height: 100%;
   position: relative;
@@ -9,26 +11,26 @@
   height: 902px;
   left: 50%;
   top: 50%;
-
-  margin-top: -61px;
+  margin-left: -200px;
+  margin-top: -45px;
   z-index: 2;
 }
 
 .ellipselr {
   background-color: transparent;
   position: absolute;
-
   height: 930.79px;
   left: 50%;
   top: 50%;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .ellipsewhite {
   position: absolute;
-
+  left: 50%;
+  top: 50%;
   height: 455px;
-  left: 2150px;
+  margin-left: 430px;
   top: 178px;
   z-index: 4;
 }
@@ -40,7 +42,7 @@
   height: 100px;
   left: 50%;
   top: 50%;
-  margin-left: 102px;
+  margin-left: -202px;
   margin-top: 511px;
   opacity: 0.8;
 }
@@ -52,6 +54,6 @@
   height: 37px;
   left: 50%;
   top: 50%;
-  margin-left: 302px;
+
   margin-top: 111px;
 }

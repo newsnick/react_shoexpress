@@ -5,7 +5,7 @@ import ellipselarge from '../../assets/images/ellipselarge.svg'
 import ellipsewhite from '../../assets/images/ellipsewhite.svg'
 import ellipsemedium from '../../assets/images/ellipsemedium.svg'
 import ellipsesmall from '../../assets/images/ellipsesmall.svg'
-import styles from './Home.module.css'
+import styles from './Home.module.scss'
 
 const Home = () => {
   return (

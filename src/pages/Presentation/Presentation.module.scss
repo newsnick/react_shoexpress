@@ -1,0 +1,34 @@
+.section2 {
+  position: absolute;
+  width: 100%;
+  height: 832px;
+  left: 0px;
+  top: 993px;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: $mainbackground;
+}
+
+.textpresentation {
+  padding: 10%;
+}
+
+.presentation1,
+.presentation2,
+.presentation3 {
+  font-family: 'Stencil';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 129.792px;
+  line-height: 130px;
+  color: #121212;
+  opacity: 0.3;
+}
+
+.presentation2 {
+  text-align: center;
+}
+
+.presentation3 {
+  text-align: right;
+}

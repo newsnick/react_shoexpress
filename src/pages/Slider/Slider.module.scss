@@ -1,0 +1,42 @@
+@import '../../assets/styles/_global.scss';
+
+.section3 {
+  position: absolute;
+  height: 1000px;
+  width: 100%;
+  top: 1825px;
+  background-color: $altbackground;
+  text-align: center;
+}
+
+.buttonrow {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.headersection3 {
+  font-family: 'Stencil';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  color: #121212;
+  text-align: center;
+  margin: 5%;
+}
+
+.btnslider {
+  @include styleofbtn;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  color: #000000;
+  border: 1px solid #007d8b;
+  background-color: transparent;
+  margin-bottom: 10%;
+}
+
+.shoeslider {
+  display: flex;
+}

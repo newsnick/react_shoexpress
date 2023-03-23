@@ -1,4 +1,4 @@
-import './assets/styles/App.css'
+import './assets/styles/App.scss'
 
 import Home from './pages/Home/Home'
 import Presentation from './pages/Presentation/Presentation'
@@ -19,7 +19,7 @@ function App() {
       <div>
         <Presentation />
       </div>
-
+      <Slider />
       {/*
       <Slider />
       <Selection />
