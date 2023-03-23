@@ -1,0 +1,26 @@
+.logo {
+  padding: 15%;
+}
+
+ul {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  gap: 15%;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 3; /* set a higher z-index to make it appear on top of both images */
+
+  background: linear-gradient(
+    270deg,
+    #ffffff -5.04%,
+
+    rgba(0, 125, 139, 0.09) 111.05%
+  );
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
