@@ -1,0 +1,32 @@
+@import '../_global.scss';
+
+.section5 {
+  @include sections;
+  top: 4293px;
+  background-color: $otherbackground;
+}
+
+.textpromo {
+  margin: 7%;
+  text-align: center;
+}
+
+.promo {
+  @include headersections;
+  font-size: 129.792px;
+  line-height: 130px;
+  color: $whitetext;
+}
+
+.promobutton {
+  @include styleofbtn;
+  @include stencil;
+  color: $otherbackground;
+  font-size: 20.1176px;
+  line-height: 20px;
+  width: 279px;
+  height: 54px;
+  background: $bgbutton;
+  border-radius: 25.1471px;
+  margin: 5%;
+}

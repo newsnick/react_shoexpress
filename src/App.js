@@ -15,6 +15,9 @@ function App() {
       <Home />
       <Presentation />
       <Slider />
+      <Selection />
+      <Promotion />
+      <Footer />
       {/*
       <Slider />
       <Selection />

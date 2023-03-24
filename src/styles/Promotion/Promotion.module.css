@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&family=Stardos+Stencil&family=Yusei+Magic&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  font-family: "Yusei Magic", cursive, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.section5 {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  padding: 0;
+  background-color: #006c79;
+  top: 4293px;
+  background-color: #007d8b;
+}
+
+.textpromo {
+  margin: 7%;
+  text-align: center;
+}
+
+.promo {
+  font-family: "Stencil", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  color: #121212;
+  font-size: 129.792px;
+  line-height: 130px;
+  color: #ffffff;
+}
+
+.promobutton {
+  font-family: "Yu Gothic", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  color: #ffffff;
+  width: 194px;
+  height: 58px;
+  border-radius: 30px;
+  font-family: "Stencil", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #007d8b;
+  font-size: 20.1176px;
+  line-height: 20px;
+  width: 279px;
+  height: 54px;
+  background: #f8f8f8;
+  border-radius: 25.1471px;
+  margin: 5%;
+}

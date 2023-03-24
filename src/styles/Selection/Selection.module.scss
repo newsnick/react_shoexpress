@@ -1,0 +1,19 @@
+@import '../_global.scss';
+
+.section4 {
+  position: relative;
+  width: 100%;
+  top: 3352px;
+  text-align: center;
+}
+
+.headersection4 {
+  @include headersections;
+}
+
+.shoeselector {
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  padding: 5%;
+}

@@ -3,7 +3,10 @@
 
 $altbackground: #bebebe;
 $mainbackground: #006c79;
-
+$whitetext: #ffffff;
+$otherbackground: #007d8b;
+$bgbutton: #f8f8f8;
+$bgfooter: #f6835f;
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +38,7 @@ a:active {
 }
 
 ul {
-  font-family: 'Yusei Magic', cursive;
+  font-family: 'Yusei Magic', cursive, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,7 +47,7 @@ ul {
 }
 
 @mixin styleofbtn {
-  font-family: 'Yu Gothic';
+  font-family: 'Yu Gothic', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -60,4 +63,27 @@ ul {
   left: 50%;
   top: 50%;
   background-color: transparent;
+}
+
+@mixin headersections {
+  font-family: 'Stencil', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  color: #121212;
+}
+
+@mixin sections {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  padding: 0;
+  background-color: $mainbackground;
+}
+
+@mixin stencil {
+  font-family: 'Stencil', sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }

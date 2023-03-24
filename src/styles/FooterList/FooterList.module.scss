@@ -1,0 +1,36 @@
+@import '../_global.scss';
+
+.sectionfooter {
+  @include sections;
+  background: $bgfooter;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5%;
+  padding-top: 5%;
+}
+
+ol {
+  list-style: none;
+}
+
+ol li:first-child,
+li {
+  font-family: 'Yu Gothic', sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: $whitetext;
+}
+
+ol li:first-child {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+}
+
+li {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: left;
+}

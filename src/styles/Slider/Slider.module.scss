@@ -2,7 +2,6 @@
 
 .section3 {
   position: absolute;
-
   width: 100%;
   top: 1825px;
   text-align: center;
@@ -15,13 +14,7 @@
 }
 
 .headersection3 {
-  font-family: 'Stencil';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 48px;
-  color: #121212;
-  text-align: center;
+  @include headersections;
   margin: 5%;
 }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles/Presentation/Presentation.module.css'
+import styles from '../../styles/Presentation/Presentation.module.scss'
 
 const Presentation = () => {
   return (

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Stardos+Stencil&family=Yusei+Magic&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  font-family: 'Yusei Magic', cursive, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.sectionfooter {
+  position: absolute;
+  width: 1280px;
+  height: 832px;
+  left: 0px;
+  top: 2007px;
+  background: #f6835f;
+}
+
+ol {
+  list-style: none;
+}
+
+ol li:first-child,
+li {
+  font-family: 'Yu Gothic', sans-serif;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+ol li:first-child {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 58px;
+}
+
+li {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+}

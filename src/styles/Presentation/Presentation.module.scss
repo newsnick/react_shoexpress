@@ -1,13 +1,8 @@
 @import '../_global.scss';
 
 .section2 {
-  position: absolute;
-  width: 100%;
-  left: 0px;
+  @include sections;
   top: 993px;
-  box-sizing: border-box;
-  padding: 0;
-  background-color: $mainbackground;
 }
 
 .textpresentation {
@@ -17,12 +12,9 @@
 .presentation1,
 .presentation2,
 .presentation3 {
-  font-family: 'Stencil';
-  font-style: normal;
-  font-weight: 400;
+  @include headersections;
   font-size: 129.792px;
   line-height: 130px;
-  color: #121212;
   opacity: 0.3;
 }
 

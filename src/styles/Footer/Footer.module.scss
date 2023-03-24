@@ -1,0 +1,11 @@
+@import '../FooterList/FooterList.module.scss';
+@import '../_global.scss';
+
+.section6 {
+  @include sections;
+  background: $bgfooter;
+  top: 5400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

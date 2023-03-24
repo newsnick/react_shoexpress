@@ -38,7 +38,7 @@ a:active {
 }
 
 ul {
-  font-family: "Yusei Magic", cursive;
+  font-family: "Yusei Magic", cursive, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,7 +84,7 @@ a:active {
 }
 
 ul {
-  font-family: "Yusei Magic", cursive;
+  font-family: "Yusei Magic", cursive, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,7 +184,7 @@ a:active {
 }
 
 ul {
-  font-family: "Yusei Magic", cursive;
+  font-family: "Yusei Magic", cursive, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -202,11 +202,9 @@ ul {
   position: absolute;
   width: 100%;
   left: 0px;
-  top: 993px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   padding: 0;
   background-color: #006c79;
+  top: 993px;
 }
 
 .textpresentation {
@@ -216,12 +214,14 @@ ul {
 .presentation1,
 .presentation2,
 .presentation3 {
-  font-family: "Stencil";
+  font-family: "Stencil", sans-serif;
   font-style: normal;
   font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  color: #121212;
   font-size: 129.792px;
   line-height: 130px;
-  color: #121212;
   opacity: 0.3;
 }
 
@@ -265,7 +265,7 @@ a:active {
 }
 
 ul {
-  font-family: "Yusei Magic", cursive;
+  font-family: "Yusei Magic", cursive, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -297,18 +297,17 @@ ul {
 }
 
 .headersection3 {
-  font-family: "Stencil";
+  font-family: "Stencil", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
   line-height: 48px;
   color: #121212;
-  text-align: center;
   margin: 5%;
 }
 
 .btnslider {
-  font-family: "Yu Gothic";
+  font-family: "Yu Gothic", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
