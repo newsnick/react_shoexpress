@@ -5,11 +5,11 @@ import ellipselarge from '../../assets/images/ellipselarge.svg'
 import ellipsewhite from '../../assets/images/ellipsewhite.svg'
 import ellipsemedium from '../../assets/images/ellipsemedium.svg'
 import ellipsesmall from '../../assets/images/ellipsesmall.svg'
-import styles from './Home.module.scss'
+import styles from '../../styles//Home/Home.module.scss'
 
 const Home = () => {
   return (
-    <main className={styles.section1}>
+    <div className={styles.section1}>
       <Navbar />
       <img className={styles.shoes} src={shoegroup} alt="shoepair" />
       <img className={styles.ellipselr} src={ellipselarge} alt="ellipselarge" />
@@ -24,7 +24,7 @@ const Home = () => {
         alt="ellipsemedium"
       />
       <img className={styles.ellipses} src={ellipsesmall} alt="ellipsesmall" />
-    </main>
+    </div>
   )
 }
 

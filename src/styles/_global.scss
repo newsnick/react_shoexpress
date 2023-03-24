@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Stardos+Stencil&family=Yusei+Magic&display=swap');
 
+$altbackground: #bebebe;
+$mainbackground: #006c79;
+
 * {
   margin: 0;
   padding: 0;
@@ -38,4 +41,23 @@ ul {
   align-items: center;
   list-style: none;
   text-decoration: none;
+}
+
+@mixin styleofbtn {
+  font-family: 'Yu Gothic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  color: #ffffff;
+  width: 194px;
+  height: 58px;
+  border-radius: 30px;
+}
+
+@mixin ellipsespos {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: transparent;
 }

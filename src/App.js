@@ -1,4 +1,4 @@
-import './assets/styles/App.scss'
+import './styles/App.scss'
 
 import Home from './pages/Home/Home'
 import Presentation from './pages/Presentation/Presentation'
@@ -10,22 +10,17 @@ import Footer from './pages/Footer/Footer'
 function App() {
   return (
     //<div className="App">
-    <main>
+    <>
       <Home />
-      <div>
-        <Home />
-      </div>
-
-      <div>
-        <Presentation />
-      </div>
+      <Home />
+      <Presentation />
       <Slider />
       {/*
       <Slider />
       <Selection />
       <Promotion />
       <Footer /> */}
-    </main>
+    </>
     //</div>
   )
 }

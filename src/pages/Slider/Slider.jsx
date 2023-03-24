@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Slider.module.scss'
+import styles from '../../styles/Slider/Slider.module.scss'
 import slide1 from '../../assets/images/shoeslide1.svg'
 import slide2 from '../../assets/images/shoeslide2.svg'
 import slide3 from '../../assets/images/shoeslide3.svg'

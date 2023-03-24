@@ -1,0 +1,40 @@
+@import '../../styles/_global.scss';
+
+.section1 {
+  height: 100%;
+  position: relative;
+}
+
+.shoes {
+  @include ellipsespos;
+  margin-left: -165px;
+  margin-top: -30px;
+  z-index: 2;
+}
+
+.ellipselr {
+  @include ellipsespos;
+  margin-left: 100px;
+  z-index: 1;
+}
+
+.ellipsewhite {
+  color: $altbackground;
+  @include ellipsespos;
+  margin-left: 510px;
+  top: 178px;
+  z-index: 4;
+}
+
+.ellipsem {
+  @include ellipsespos;
+  margin-left: -100px;
+  margin-top: 511px;
+  opacity: 0.8;
+}
+
+.ellipses {
+  @include ellipsespos;
+  margin-top: 111px;
+  margin-left: 100px;
+}

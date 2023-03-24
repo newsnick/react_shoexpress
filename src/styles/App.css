@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&family=Stardos+Stencil&family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&family=Stardos+Stencil&family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&family=Stardos+Stencil&family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&family=Stardos+Stencil&family=Yusei+Magic&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  font-family: "Yusei Magic", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  font-family: "Yusei Magic", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.section1 {
+  height: 100%;
+  position: relative;
+}
+
+.shoes {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: transparent;
+  margin-left: -165px;
+  margin-top: -30px;
+  z-index: 2;
+}
+
+.ellipselr {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: transparent;
+  margin-left: 100px;
+  z-index: 1;
+}
+
+.ellipsewhite {
+  color: #bebebe;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: transparent;
+  margin-left: 510px;
+  top: 178px;
+  z-index: 4;
+}
+
+.ellipsem {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: transparent;
+  margin-left: -100px;
+  margin-top: 511px;
+  opacity: 0.8;
+}
+
+.ellipses {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: transparent;
+  margin-top: 111px;
+  margin-left: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  font-family: "Yusei Magic", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.section2 {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 993px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  background-color: #006c79;
+}
+
+.textpresentation {
+  margin: 7%;
+}
+
+.presentation1,
+.presentation2,
+.presentation3 {
+  font-family: "Stencil";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 129.792px;
+  line-height: 130px;
+  color: #121212;
+  opacity: 0.3;
+}
+
+.presentation2 {
+  text-align: center;
+}
+
+.presentation3 {
+  text-align: right;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+ul {
+  font-family: "Yusei Magic", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.section3 {
+  position: absolute;
+  width: 100%;
+  top: 1825px;
+  text-align: center;
+}
+
+.buttonrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2%;
+}
+
+.headersection3 {
+  font-family: "Stencil";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  color: #121212;
+  text-align: center;
+  margin: 5%;
+}
+
+.btnslider {
+  font-family: "Yu Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  color: #ffffff;
+  width: 194px;
+  height: 58px;
+  border-radius: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  color: #000000;
+  border: 1px solid #007d8b;
+  background-color: transparent;
+  margin-bottom: 10%;
+}
+
+.shoeslider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

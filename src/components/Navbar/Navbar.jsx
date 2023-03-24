@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../../assets/images/shoexpresslogo.svg'
 import glass from '../../assets/icons/glass.svg'
-import styles from './Navbar.module.css'
+import styles from '../../styles/Navbar/Navbar.module.css'
 
 const Navbar = () => {
   return (

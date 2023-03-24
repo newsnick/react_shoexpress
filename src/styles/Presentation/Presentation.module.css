@@ -1,16 +1,15 @@
 .section2 {
   position: absolute;
   width: 100%;
-  height: 832px;
   left: 0px;
   top: 993px;
   box-sizing: border-box;
   padding: 0;
-  background-color: $mainbackground;
+  background-color: #006c79;
 }
 
 .textpresentation {
-  padding: 10%;
+  margin: 7%;
 }
 
 .presentation1,

@@ -1,11 +1,10 @@
-@import '../../assets/styles/_global.scss';
+@import '../_global.scss';
 
 .section3 {
   position: absolute;
-  height: 1000px;
+
   width: 100%;
   top: 1825px;
-  background-color: $altbackground;
   text-align: center;
 }
 

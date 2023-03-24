@@ -5,8 +5,8 @@
 
 .shoes {
   position: absolute;
-  width: 712px;
-  height: 902px;
+  margin-left: -165px;
+  margin-top: -30px;
   left: 50%;
   top: 50%;
 
@@ -17,18 +17,15 @@
 .ellipselr {
   background-color: transparent;
   position: absolute;
-
-  height: 930.79px;
+  margin-left: 100px;
   left: 50%;
   top: 50%;
-  z-index: 1; 
+  z-index: 1;
 }
 
 .ellipsewhite {
   position: absolute;
-
-  height: 455px;
-  left: 2150px;
+  margin-left: 510px;
   top: 178px;
   z-index: 4;
 }
@@ -36,11 +33,9 @@
 .ellipsem {
   background-color: transparent;
   position: absolute;
-  width: 100px;
-  height: 100px;
   left: 50%;
   top: 50%;
-  margin-left: 102px;
+  margin-left: -100px;
   margin-top: 511px;
   opacity: 0.8;
 }
@@ -48,10 +43,8 @@
 .ellipses {
   background-color: transparent;
   position: absolute;
-  width: 37px;
-  height: 37px;
   left: 50%;
   top: 50%;
-  margin-left: 302px;
   margin-top: 111px;
+  margin-left: 100px;
 }
