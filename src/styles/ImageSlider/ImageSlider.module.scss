@@ -1,0 +1,24 @@
+.boxes {
+  display: flex;
+  align-items: end;
+}
+
+.selections {
+  cursor: pointer;
+}
+
+.numberIconsRow {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+}
+
+.ratings {
+  display: flex;
+  gap: 2%;
+}
+
+.thumbnails {
+  padding: 5px;
+  display: inline;
+}

@@ -1,0 +1,17 @@
+@import '../_global.scss';
+
+.heart {
+  cursor: pointer;
+  transition: color 200ms;
+  margin: 5px;
+  height: 65px;
+  width: 35px;
+}
+
+input[type='radio'] {
+  display: none;
+}
+
+.reviews {
+  text-align: left;
+}

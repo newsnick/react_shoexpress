@@ -1,0 +1,48 @@
+.numberIcon {
+  width: 28px;
+  height: 38px;
+  font-family: "Yu Gothic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  color: #007d8b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  margin: 10px;
+  padding: 25px;
+  border: 1px solid #007d8b;
+  border-radius: 50%;
+  -webkit-transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.numberIcon:hover {
+  background-color: #007d8b;
+  color: #fff;
+}
+
+.numberIcon.clicked {
+  background-color: #007d8b;
+  color: #fff;
+}
+
+.numberIconsRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 220px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
