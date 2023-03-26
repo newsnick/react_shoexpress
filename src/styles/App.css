@@ -152,6 +152,10 @@ ul {
   margin-left: 100px;
 }
 
+.container {
+  position: relative;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -204,7 +208,9 @@ ul {
   left: 0px;
   padding: 0;
   background-color: #006c79;
+  position: relative;
   top: 993px;
+  padding: 5%;
 }
 
 .textpresentation {
@@ -231,6 +237,30 @@ ul {
 
 .presentation3 {
   text-align: right;
+}
+
+.shoepair {
+  position: absolute;
+  left: 50%;
+  background-color: transparent;
+  margin-left: -350px;
+  margin-top: -65px;
+  z-index: 1;
+}
+
+.buttonpres {
+  font-family: "Yu Gothic", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  color: #ffffff;
+  width: 194px;
+  height: 58px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: rgba(134, 134, 137, 0.6);
+  z-index: 2;
 }
 
 * {
@@ -282,7 +312,7 @@ ul {
 .section3 {
   position: absolute;
   width: 100%;
-  top: 1825px;
+  top: 2125px;
   text-align: center;
 }
 
@@ -316,6 +346,7 @@ ul {
   width: 194px;
   height: 58px;
   border-radius: 30px;
+  cursor: pointer;
   font-weight: 400;
   font-size: 24px;
   line-height: 38px;

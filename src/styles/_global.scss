@@ -7,6 +7,8 @@ $whitetext: #ffffff;
 $otherbackground: #007d8b;
 $bgbutton: #f8f8f8;
 $bgfooter: #f6835f;
+$greytext: #b3b3b3;
+
 * {
   margin: 0;
   padding: 0;
@@ -46,6 +48,15 @@ ul {
   text-decoration: none;
 }
 
+@mixin headermedium {
+  font-family: 'Yu Gothic', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 64px;
+  color: #121212;
+}
+
 @mixin styleofbtn {
   font-family: 'Yu Gothic', sans-serif;
   font-style: normal;
@@ -56,6 +67,7 @@ ul {
   width: 194px;
   height: 58px;
   border-radius: 30px;
+  cursor: pointer;
 }
 
 @mixin ellipsespos {

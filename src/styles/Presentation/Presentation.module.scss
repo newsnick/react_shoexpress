@@ -2,7 +2,9 @@
 
 .section2 {
   @include sections;
+  position: relative;
   top: 993px;
+  padding: 5%;
 }
 
 .textpresentation {
@@ -24,4 +26,20 @@
 
 .presentation3 {
   text-align: right;
+}
+
+.shoepair {
+  position: absolute;
+  left: 50%;
+
+  background-color: transparent;
+  margin-left: -350px;
+  margin-top: -65px;
+  z-index: 1;
+}
+
+.buttonpres {
+  @include styleofbtn;
+  background-color: rgba(134, 134, 137, 0.6);
+  z-index: 2;
 }

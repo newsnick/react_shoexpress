@@ -19,11 +19,6 @@ function App() {
       <Selection />
       <Promotion />
       <Footer />
-      {/*
-      <Slider />
-      <Selection />
-      <Promotion />
-      <Footer /> */}
     </>
     //</div>
   )

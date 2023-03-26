@@ -1,0 +1,6 @@
+@import '../global.scss';
+
+.button {
+  @include styleofbtn;
+  background-color: $otherbackground;
+}

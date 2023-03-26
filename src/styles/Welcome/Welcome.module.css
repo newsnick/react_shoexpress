@@ -46,29 +46,58 @@ ul {
   text-decoration: none;
 }
 
-.section4 {
-  position: relative;
-  width: 100%;
-  top: 2202px;
-  text-align: center;
-}
-
-.headersection4 {
+.header {
   font-family: "Stencil", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
   line-height: 48px;
   color: #121212;
+  font-size: 48px;
+  line-height: 48px;
 }
 
-.shoeselector {
+.header2,
+.header2alt {
+  font-family: "Yu Gothic", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 64px;
+  color: #121212;
+}
+
+.header2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 1%;
-  padding: 5%;
+  gap: 10px;
+}
+
+.header2alt {
+  color: #007d8b;
+}
+
+.welcometext {
+  font-family: "Yu Gothic", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 64px;
+  color: #121212;
+  color: #b3b3b3;
+  font-size: 20px;
+  line-height: 32px;
+  max-width: 50%;
+  margin-bottom: 15%;
+}
+
+.welcomesection {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 3;
+  margin-top: 350px;
 }

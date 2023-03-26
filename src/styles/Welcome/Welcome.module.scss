@@ -1,0 +1,42 @@
+@import '../_global.scss';
+
+.welcomesection {
+}
+
+.header {
+  @include headersections;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.header2,
+.header2alt {
+  @include headermedium;
+}
+
+.header2 {
+  display: flex;
+  gap: 10px;
+}
+
+.header2alt {
+  color: $otherbackground;
+}
+
+.welcometext {
+  @include headermedium;
+  color: #b3b3b3;
+  font-size: 20px;
+  line-height: 32px;
+  max-width: 50%;
+  margin-bottom: 15%;
+}
+
+.welcomesection {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  margin-top: 350px;
+}

@@ -52,7 +52,7 @@ ul {
   left: 0px;
   padding: 0;
   background-color: #006c79;
-  top: 4293px;
+  top: 4493px;
   background-color: #007d8b;
 }
 
@@ -83,6 +83,7 @@ ul {
   width: 194px;
   height: 58px;
   border-radius: 30px;
+  cursor: pointer;
   font-family: "Stencil", sans-serif;
   font-style: normal;
   font-weight: 400;
