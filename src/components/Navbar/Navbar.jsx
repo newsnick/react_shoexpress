@@ -2,11 +2,16 @@ import React from 'react'
 import logo from '../../assets/images/shoexpresslogo.svg'
 import glass from '../../assets/icons/glass.svg'
 import styles from '../../styles/Navbar/Navbar.module.css'
+import MenuBar from '../../components/MenuBar/MenuBar.jsx'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <div>
       <nav className={styles.navbar}>
+        <Router>
+          <MenuBar />
+        </Router>
         <div>
           <img className={styles.logo} src={logo} alt="shoexpress" />
         </div>{' '}

@@ -1,0 +1,24 @@
+.MenuBar {
+  position: absolute;
+  top: 0.5rem;
+  left: 0%;
+  width: 120px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+}
+
+.MenuBar::before {
+  content: '';
+  position: absolute;
+  top: -0.7;
+  right: 1.1rem;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  background-color: white;
+  border-left: 1px solid grey;
+}
