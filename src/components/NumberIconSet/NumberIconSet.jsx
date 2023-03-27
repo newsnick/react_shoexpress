@@ -9,6 +9,48 @@ const NumberIconSet = () => {
     setSelected(number)
   }
 
+  const icons = [41, 42, 43, 44]
+
+  return (
+    <div>
+      <div>
+        <h1 className={styles.title}>Size</h1>
+      </div>
+      <div
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          flexWrap: 'wrap',
+        }}
+      >
+        {icons.map((number) => (
+          <NumberIcon
+            key={number}
+            number={number}
+            selected={selected === number}
+            onClick={() => handleIconClick(number)}
+            setSelection={setSelected}
+          />
+        ))}
+      </div>
+    </div>
+  )
+}
+
+export default NumberIconSet
+
+/* import React, { useState } from 'react'
+import NumberIcon from '../../components/NumberIcon/NumberIcon.jsx'
+import styles from '../../styles/NumberIconSet/NumberIconSet.module.scss'
+
+const NumberIconSet = () => {
+  const [selected, setSelected] = useState(null)
+
+  const handleIconClick = (number) => {
+    setSelected(number)
+  }
+
   return (
     <div>
       <div>
@@ -52,3 +94,4 @@ const NumberIconSet = () => {
 }
 
 export default NumberIconSet
+ */

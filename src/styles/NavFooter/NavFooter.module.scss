@@ -1,0 +1,40 @@
+@import '../FooterList/FooterList.module.scss';
+@import '../_global.scss';
+
+.naviend {
+  @include sections;
+  background: $bgfooter;
+  top: 7400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ulfooter {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  gap: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.navfooter {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  padding: 3%;
+  top: 85%;
+  left: 0%;
+  background: linear-gradient(
+    270deg,
+    rgba(255, 255, 255, 0) -48.09%,
+    rgba(255, 255, 255, 0.6) 108.71%
+  );
+
+  border-radius: 0px;
+  display: block;
+  justify-content: space-evenly;
+}
