@@ -1,21 +1,26 @@
 .MenuBar {
   position: absolute;
-  top: 0.5rem;
-  left: 0%;
+  top: -17%;
+  left: -1rem;
   width: 120px;
   padding: 15px;
   border-radius: 15px;
-  background-color: white;
+  cursor: pointer;
   border: 1px solid grey;
+
   display: flex;
   flex-direction: column;
+  margin-left: 13%;
+  margin-top: 3.5%;
+  z-index: 4;
+  background-color: white;
 }
 
 .MenuBar::before {
   content: '';
   position: absolute;
-  top: -0.7;
-  right: 1.1rem;
+  top: -4%;
+  right: 67%;
   width: 20px;
   height: 20px;
   transform: rotate(45deg);

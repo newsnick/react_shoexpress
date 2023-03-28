@@ -1,0 +1,36 @@
+.searchbox {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 7%;
+  z-index: 3;
+  margin-top: 50px;
+}
+
+.dropdown {
+  background-color: white;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown:empty {
+  border: none;
+}
+
+.dropdownrow {
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
+  font-family: 'Yusei Magic', serif;
+}
+
+.inputtext {
+  width: 200px;
+  font-family: 'Yusei Magic', serif;
+}
+
+.searchinner {
+  display: flex;
+}
