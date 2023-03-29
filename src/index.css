@@ -1,0 +1,5 @@
+.color-item {
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--bg-color);
+}

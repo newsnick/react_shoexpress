@@ -1,0 +1,27 @@
+.colorswitcher {
+  width: 10rem;
+  background-color: whitesmoke;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(0, -50%);
+}
+
+.heading {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.colorlist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.coloritem {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+}

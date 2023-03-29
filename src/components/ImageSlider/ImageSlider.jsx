@@ -51,6 +51,7 @@ import PickedImages from '../../components/PickedImages/PickedImages.jsx'
 import HeartRating from '../HeartRating/HeartRating'
 import NumberIconsRow from '../NumberIcon/NumberIcon'
 import NumberIconSet from '../../components/NumberIconSet/NumberIconSet.jsx'
+import ColorSelect from '../../components/ColorSelect/ColorSelect.jsx'
 
 const ImageSlider = () => {
   const imgs = [
@@ -73,6 +74,7 @@ const ImageSlider = () => {
 
       <div className={styles.selections}>
         <div className={styles.ratings}>
+          <ColorSelect />
           <NumberIconSet />
           <HeartRating />
         </div>

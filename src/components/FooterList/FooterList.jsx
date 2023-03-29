@@ -1,32 +1,6 @@
 import React from 'react'
 import styles from '../../styles/FooterList/FooterList.module.scss'
-
-const listData = [
-  {
-    title: 'Products',
-    items: ['Shoes'],
-  },
-  {
-    title: 'Category',
-    items: ['Men', 'New In', 'Weekly Pick'],
-  },
-  {
-    title: 'Company Info',
-    items: [
-      'About Us',
-      'Contact Us',
-      'Payment Options',
-      'Track Order',
-      'Support',
-      'Vouchers',
-      'Size Charts',
-    ],
-  },
-  {
-    title: 'Follow Us',
-    items: [],
-  },
-]
+import { listData } from '../../utils'
 
 const FooterList = () => {
   return (

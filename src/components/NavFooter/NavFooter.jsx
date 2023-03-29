@@ -1,6 +1,33 @@
 import React from 'react'
-import logo from '../../assets/images/shoexpresslogo.svg'
-import glass from '../../assets/icons/glass.svg'
+import styles from '../../styles/NavFooter/NavFooter.module.scss'
+
+const NavFooter = () => {
+  const navFooterItems = [
+    { label: 'Data Settings', link: '#' },
+    { label: 'Cookie Settings', link: '#' },
+    { label: 'Privacy Policy', link: '#' },
+    { label: 'Terms And Conditions', link: '#' },
+    { label: 'Imprint', link: '#' },
+  ]
+
+  return (
+    <div>
+      <nav className={styles.navfooter}>
+        <ul className={styles.ulfooter}>
+          {navFooterItems.map((item) => (
+            <li key={item.label}>
+              <a href={item.link}>{item.label}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </div>
+  )
+}
+
+export default NavFooter
+
+/* import React from 'react'
 import styles from '../../styles/NavFooter/NavFooter.module.scss'
 
 const NavFooter = () => {
@@ -30,3 +57,4 @@ const NavFooter = () => {
 }
 
 export default NavFooter
+ */

@@ -48,6 +48,13 @@ ul {
   text-decoration: none;
 }
 
+hr {
+  max-width: 100%;
+  width: 90%;
+  border: 0.1rem solid #000;
+  color: red;
+}
+
 @mixin headermedium {
   font-family: 'Yu Gothic', sans-serif;
   font-style: normal;

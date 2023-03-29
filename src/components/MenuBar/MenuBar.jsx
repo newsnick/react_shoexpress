@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+/* import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import styles from '../../styles/MenuBar/MenuBar.module.css'
 
@@ -24,6 +24,35 @@ const MenuBar = () => {
         <li>
           <Link to="/footer">Footer</Link>
         </li>
+      </ul>
+    </div>
+  )
+}
+
+export default MenuBar */
+
+import React from 'react'
+import { Link } from 'react-router-dom'
+import styles from '../../styles/MenuBar/MenuBar.module.css'
+
+const menuItems = [
+  { id: 1, name: 'Home', link: '/home' },
+  { id: 2, name: 'Present', link: '/presentation' },
+  { id: 3, name: 'Slider', link: '/slider' },
+  { id: 4, name: 'Selection', link: '/selection' },
+  { id: 5, name: 'Promotion', link: '/promotion' },
+  { id: 6, name: 'Footer', link: '/footer' },
+]
+
+const MenuBar = () => {
+  return (
+    <div className={styles.MenuBar}>
+      <ul className={styles.MenuBar}>
+        {menuItems.map((item) => (
+          <li key={item.id}>
+            <Link to={item.link}>{item.name}</Link>
+          </li>
+        ))}
       </ul>
     </div>
   )

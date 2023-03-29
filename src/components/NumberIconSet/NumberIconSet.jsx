@@ -16,14 +16,7 @@ const NumberIconSet = () => {
       <div>
         <h1 className={styles.title}>Size</h1>
       </div>
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          flexWrap: 'wrap',
-        }}
-      >
+      <div className={styles.numbers}>
         {icons.map((number) => (
           <NumberIcon
             key={number}
