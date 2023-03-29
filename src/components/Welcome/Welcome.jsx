@@ -7,7 +7,7 @@ const Welcome = () => {
     <div className={styles.welcomesection}>
       <p className={styles.header}>Sports Shoes</p>
       <p className={styles.header2}>
-        <p className={styles.header2alt}>Men`s</p> collection
+        <span className={styles.header2alt}>Men`s</span> collection
       </p>
       <p className={styles.welcometext}>
         Find your true style with shoexpress and explore the variety of playful,

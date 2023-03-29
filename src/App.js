@@ -15,7 +15,6 @@ function App() {
       <Home />
       <Presentation />
       <Slider />
-
       <Selection />
       <Promotion />
       <Footer />

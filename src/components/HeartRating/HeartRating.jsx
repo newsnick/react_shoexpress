@@ -8,7 +8,7 @@ const HeartRating = () => {
 
   return (
     <div>
-      <h1 className={styles.reviews}>Reviews</h1>
+      <p>Reviews</p>
       {[...Array(5)].map((heart, i) => {
         const ratingValue = i + 1
 

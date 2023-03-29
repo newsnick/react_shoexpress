@@ -8,10 +8,10 @@ const ColorSelect = () => {
   return (
     <div className={styles.colorselect}>
       <div className={styles.colorswitcher}>
-        <h1 className={styles.heading}>Colour</h1>
+        <p>Colour</p>
         <div className={styles.colorlist}>
           {colors.map((color, idx) => (
-            <ColorItem />
+            <ColorItem color={color} />
           ))}
         </div>
       </div>

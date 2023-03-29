@@ -6,18 +6,11 @@ import MenuBar from '../../components/MenuBar/MenuBar.jsx'
 import menubar from '../../assets/icons/menubar1.svg'
 import SearchBar from '../../components/SearchBar/SearchBar.jsx'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { links } from '../../utils'
 
 const Navbar = () => {
   const [openProfile, setOpenProfile] = useState(false)
   const [openSearchProfile, setSearchProfile] = useState(false)
-
-  const links = [
-    { name: 'Home', href: '#' },
-    { name: 'Shop', href: '#' },
-    { name: 'Order', href: '#' },
-    { name: 'Contact', href: '#' },
-    { name: 'Login', href: '#' },
-  ]
 
   return (
     <div>

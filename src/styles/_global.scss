@@ -55,6 +55,14 @@ hr {
   color: red;
 }
 
+p {
+  font-family: 'Yu Gothic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 45px;
+}
+
 @mixin headermedium {
   font-family: 'Yu Gothic', sans-serif;
   font-style: normal;

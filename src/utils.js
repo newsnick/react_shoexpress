@@ -49,3 +49,28 @@ export const listData = [
     items: [],
   },
 ]
+
+export const menuItems = [
+  { id: 1, name: 'Home', link: '/home' },
+  { id: 2, name: 'Present', link: '/presentation' },
+  { id: 3, name: 'Slider', link: '/slider' },
+  { id: 4, name: 'Selection', link: '/selection' },
+  { id: 5, name: 'Promotion', link: '/promotion' },
+  { id: 6, name: 'Footer', link: '/footer' },
+]
+
+export const links = [
+  { name: 'Home', href: '#' },
+  { name: 'Shop', href: '#' },
+  { name: 'Order', href: '#' },
+  { name: 'Contact', href: '#' },
+  { name: 'Login', href: '#' },
+]
+
+export const navFooterItems = [
+  { label: 'Data Settings', link: '#' },
+  { label: 'Cookie Settings', link: '#' },
+  { label: 'Privacy Policy', link: '#' },
+  { label: 'Terms And Conditions', link: '#' },
+  { label: 'Imprint', link: '#' },
+]
